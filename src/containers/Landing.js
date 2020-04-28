@@ -2,7 +2,7 @@ import React from "react"
 import Hero from "../components/Hero";
 const Landing  = () =>{
     return(
-        <div className="landing">
+        <div className="landing container yellow  mx-auto">
             <Hero/>
 
         </div>

@@ -3,23 +3,12 @@
 
 @tailwind components;
 
-@font-face {
-    font-family: 'LeagueSpartan';
-    src: local('LeagueSpartan'), url(./fonts/LeagueSpartan/LeagueSpartan-Bold.otf) format('otf');
-}
-
 @tailwind utilities;
 
-body {
-    margin: 0;
-    font-family: 'LeagueSpartan', serif;
-
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    background-color: #fbc22f;
+.white{
+    background-color: white;
 }
 
-code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+    background-color: #fbc22f;
 }

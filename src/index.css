@@ -619,12 +619,6 @@ video {
   }
 }
 
-@font-face {
-  font-family: 'LeagueSpartan';
-
-  src: local('LeagueSpartan'), url(./fonts/LeagueSpartan/LeagueSpartan-Bold.otf) format('otf');
-}
-
 .space-y-0 > :not(template) ~ :not(template) {
   --space-y-reverse: 0;
   margin-top: calc(0px * calc(1 - var(--space-y-reverse)));
@@ -4637,10 +4631,6 @@ video {
 
 .font-mono {
   font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-}
-
-.font-body {
-  font-family: LeagueSpartan, Helvetica, Arial, sans-serif;
 }
 
 .font-hairline {
@@ -14217,17 +14207,12 @@ video {
   transition-delay: 1000ms;
 }
 
-body {
-  margin: 0;
-  font-family: 'LeagueSpartan', serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: #fbc22f;
+.white{
+  background-color: white;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  background-color: #fbc22f;
 }
 
 @media (min-width: 640px) {
@@ -18243,10 +18228,6 @@ code {
 
   .sm\:font-mono {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  }
-
-  .sm\:font-body {
-    font-family: LeagueSpartan, Helvetica, Arial, sans-serif;
   }
 
   .sm\:font-hairline {
@@ -31839,10 +31820,6 @@ code {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
-  .md\:font-body {
-    font-family: LeagueSpartan, Helvetica, Arial, sans-serif;
-  }
-
   .md\:font-hairline {
     font-weight: 100;
   }
@@ -45433,10 +45410,6 @@ code {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
-  .lg\:font-body {
-    font-family: LeagueSpartan, Helvetica, Arial, sans-serif;
-  }
-
   .lg\:font-hairline {
     font-weight: 100;
   }
@@ -59025,10 +58998,6 @@ code {
 
   .xl\:font-mono {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  }
-
-  .xl\:font-body {
-    font-family: LeagueSpartan, Helvetica, Arial, sans-serif;
   }
 
   .xl\:font-hairline {
