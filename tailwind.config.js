@@ -1,7 +1,11 @@
 module.exports = {
   theme: {
-    extend: {},
-  },
+    backgroundColor: theme => ({
+      ...theme('colors'),
+      'brandingYellow': '#fbc22f'
+
+    })
+},
   variants: {},
   plugins: [],
 };

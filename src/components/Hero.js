@@ -1,37 +1,55 @@
 import React from "react"
-import ParticlesDiv from "./Particles";
+import Particles from "react-particles-js";
 
 const Hero = () =>{
     return(
-        <div className="hero-image bg-auto h-auto"
-        >
-            <ParticlesDiv />
-            <div
-                style={{
-                    position: "absolute",
-                    top: 0,
-                    left: 0,
-                    width: "100%",
-                    height: "100%"
-                }}
-            >
-                <div className="text-white my-10 py-20  content-center">
-                    <div className="text-center">
-                        <h1 className="text-6xl font-bold">
-                            Erika Flores
-                        </h1>
-                        <p className="text-2xl mb-10">Ingeniero en softare<br/> & <br />Full stack developer</p>
-                        <button className="bg-white py-4 px-8 text-gray-700 font-bold rounded">
-                            Ver CV
+        <div className="pt-24">
 
-                        </button>
 
+            <section className="bg-brandingYellow border-b py-8 ">
+                <div className="container mx-auto  ">
+
+                    <Particles
+                        params={{
+                            particles: {
+                                number: {
+                                    value: 200,
+                                    density: {
+                                        enable: true,
+                                        value_area: 1000,
+                                    }
+                                },
+                                color: {
+                                    "value": "#ffffff"
+                                },
+                                size: {
+                                    "value": 3,
+                                    "random": true,
+                                    "anim": {
+                                        "enable": false,
+                                        "speed": 40,
+                                        "size_min": 0.1,
+                                        "sync": false
+                                    }
+                                },
+                            },
+                        }}
+
+                    />
+                    <div
+                        style={{
+                            position: "absolute",
+                            top: 0,
+                            left: 0,
+                            width: "100%",
+                            height: "100%"
+                        }}
+                    >
+                        <h1 className="w-full my-2 text-5xl font-bold leading-tight text-center text-white pt-40">Erika Flores</h1>
+                        <p className="w-full my-2 text-1xl italic font-bold leading-tight text-center text-white ">Software engineer <br/> &<br/> Full Stack developer</p>
                     </div>
-
-
                 </div>
-
-            </div>
+            </section>
         </div>
     )
 };

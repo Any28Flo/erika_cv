@@ -1955,6 +1955,10 @@ video {
   background-color: #702459;
 }
 
+.bg-brandingYellow {
+  background-color: #fbc22f;
+}
+
 .hover\:bg-transparent:hover {
   background-color: transparent;
 }
@@ -2331,6 +2335,10 @@ video {
   background-color: #702459;
 }
 
+.hover\:bg-brandingYellow:hover {
+  background-color: #fbc22f;
+}
+
 .focus\:bg-transparent:focus {
   background-color: transparent;
 }
@@ -2705,6 +2713,10 @@ video {
 
 .focus\:bg-pink-900:focus {
   background-color: #702459;
+}
+
+.focus\:bg-brandingYellow:focus {
+  background-color: #fbc22f;
 }
 
 .bg-bottom {
@@ -14211,8 +14223,8 @@ video {
   background-color: white;
 }
 
-body{
-  background-color: #fbc22f;
+.gradient {
+  background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
 }
 
 @media (min-width: 640px) {
@@ -15552,6 +15564,10 @@ body{
     background-color: #702459;
   }
 
+  .sm\:bg-brandingYellow {
+    background-color: #fbc22f;
+  }
+
   .sm\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -15928,6 +15944,10 @@ body{
     background-color: #702459;
   }
 
+  .sm\:hover\:bg-brandingYellow:hover {
+    background-color: #fbc22f;
+  }
+
   .sm\:focus\:bg-transparent:focus {
     background-color: transparent;
   }
@@ -16302,6 +16322,10 @@ body{
 
   .sm\:focus\:bg-pink-900:focus {
     background-color: #702459;
+  }
+
+  .sm\:focus\:bg-brandingYellow:focus {
+    background-color: #fbc22f;
   }
 
   .sm\:bg-bottom {
@@ -29142,6 +29166,10 @@ body{
     background-color: #702459;
   }
 
+  .md\:bg-brandingYellow {
+    background-color: #fbc22f;
+  }
+
   .md\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -29518,6 +29546,10 @@ body{
     background-color: #702459;
   }
 
+  .md\:hover\:bg-brandingYellow:hover {
+    background-color: #fbc22f;
+  }
+
   .md\:focus\:bg-transparent:focus {
     background-color: transparent;
   }
@@ -29892,6 +29924,10 @@ body{
 
   .md\:focus\:bg-pink-900:focus {
     background-color: #702459;
+  }
+
+  .md\:focus\:bg-brandingYellow:focus {
+    background-color: #fbc22f;
   }
 
   .md\:bg-bottom {
@@ -42732,6 +42768,10 @@ body{
     background-color: #702459;
   }
 
+  .lg\:bg-brandingYellow {
+    background-color: #fbc22f;
+  }
+
   .lg\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -43108,6 +43148,10 @@ body{
     background-color: #702459;
   }
 
+  .lg\:hover\:bg-brandingYellow:hover {
+    background-color: #fbc22f;
+  }
+
   .lg\:focus\:bg-transparent:focus {
     background-color: transparent;
   }
@@ -43482,6 +43526,10 @@ body{
 
   .lg\:focus\:bg-pink-900:focus {
     background-color: #702459;
+  }
+
+  .lg\:focus\:bg-brandingYellow:focus {
+    background-color: #fbc22f;
   }
 
   .lg\:bg-bottom {
@@ -56322,6 +56370,10 @@ body{
     background-color: #702459;
   }
 
+  .xl\:bg-brandingYellow {
+    background-color: #fbc22f;
+  }
+
   .xl\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -56698,6 +56750,10 @@ body{
     background-color: #702459;
   }
 
+  .xl\:hover\:bg-brandingYellow:hover {
+    background-color: #fbc22f;
+  }
+
   .xl\:focus\:bg-transparent:focus {
     background-color: transparent;
   }
@@ -57072,6 +57128,10 @@ body{
 
   .xl\:focus\:bg-pink-900:focus {
     background-color: #702459;
+  }
+
+  .xl\:focus\:bg-brandingYellow:focus {
+    background-color: #fbc22f;
   }
 
   .xl\:bg-bottom {
