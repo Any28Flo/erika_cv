@@ -4,7 +4,6 @@ import Divider from "./components/Divider";
 import NavBar from "./containers/NavBar";
 import Hero from "./components/Hero";
 import AboutMe from "./components/AboutMe";
-import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import Skills from "./components/Skills";
 export default App;
@@ -18,7 +17,6 @@ function App() {
             <Hero/>
             <AboutMe/>
             <Divider/>
-            <Projects/>
             <Skills/>
             <Footer/>
 
