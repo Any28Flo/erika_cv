@@ -7,9 +7,8 @@ import AboutMe from "./components/AboutMe";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import Skills from "./components/Skills";
-export default App;
 
-function App() {
+const App = () =>{
     return (
 
         <div className="App leading-normal tracking-normal text-white gradient">
@@ -25,5 +24,7 @@ function App() {
         </div>
 
 
-);
-}
+    );
+};
+
+export default App;
