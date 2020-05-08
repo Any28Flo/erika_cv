@@ -7,7 +7,7 @@ import AboutMe from "./components/AboutMe";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import Skills from "./components/Skills";
-
+import Button from "./components/Button";
 const App = () =>{
     return (
 
@@ -20,7 +20,7 @@ const App = () =>{
             <Projects/>
             <Skills/>
             <Footer/>
-
+            <Button/>
         </div>
 
 

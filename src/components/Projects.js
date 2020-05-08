@@ -61,10 +61,30 @@ const Projects = () =>{
                     <div className="w-full sm:w-1/2 p-6 mt-6">
                         <div className="align-middle">
                             <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">Iron Pets</h3>
-                            <p className="text-gray-600 mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.<br/><br/>
-                                Images from: <a className="text-orange-500 underline"
-                                                href="https://undraw.co/">undraw.co</a></p>
+                            <p className="text-gray-600 mb-8">IronPets was a second project for Ironhack's bootcamp.
+                                Ironpets help  to find a new home for dogs. You can view animals in your area, search animals of a specific breed, gender, or size, and read all about each animal.
+                            </p>
+                            <div className="inline-flex">
+
+                                <div className="flex-1  text-center">
+                                    <img className="w-16" src={node_icon} alt=""/>
+
+                                </div>
+                                <div className="flex-1  text-center">
+                                    <img className="w-8" src={heroku_icon} alt=""/>
+
+                                </div>
+
+                            </div>
+
+                            <p className="text-gray-600 mb-8">
+                                Code <a className="text-orange-500 underline"
+                                        href="https://github.com/Any28Flo/crypto-wallet">https://github.com/Any28Flo/crypto-wallet</a> <br/>
+                                Site <a className="text-orange-500 underline"
+                                        href="https://cryptowallet-app.herokuapp.com/">https://cryptowallet-app.herokuapp.com/</a>
+
+                            </p>
+
                         </div>
                     </div>
 
