@@ -77,8 +77,6 @@ const TechSkills = () =>{
                                 <h5 className="mt-1 text-xl text-gray-500 uppercase font-semibold">
                                     NODE
                                 </h5>
-
-
                             </div>
                         </div>
                     </div>
