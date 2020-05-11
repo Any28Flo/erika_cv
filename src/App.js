@@ -8,6 +8,7 @@ import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import Skills from "./components/Skills";
 import Button from "./components/Button";
+import TechSkills from "./components/TechSkills";
 const App = () =>{
     return (
 
@@ -18,7 +19,7 @@ const App = () =>{
             <AboutMe/>
             <Divider/>
             <Projects/>
-            <Skills/>
+            <TechSkills/>
             <Footer/>
             <Button/>
         </div>

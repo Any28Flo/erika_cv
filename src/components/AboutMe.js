@@ -53,7 +53,8 @@ const AboutMe  = () =>{
 
                 </div>
                 <div className="w-full md:w-3/5 py-6 text-center">
-                    <img className="w-full md:w-4/5 z-50" src={profile_image} alt="hero-image"/>
+
+                    <img className="rounded shadow-2xl w-full md:w-4/5 z-50" src={profile_image} alt="hero-image" />
                 </div>
 
             </div>
