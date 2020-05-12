@@ -5,6 +5,14 @@ const TechSkills = () =>{
     const mongo_icon = require("./../images/mongodb.svg");
     const expres_icon = require("./../images/expressjs.svg");
     const node_icon = require("./../images/node.svg");
+    const git_icon = require("./../images/git.svg");
+    const html_icon = require("./../images/html5.svg");
+    const boostrap_icon = require("./../images/boostrap.svg");
+    const css3_icon = require("./../images/css3.svg");
+    const github_icon = require("./../images/github.svg");
+    const heroku_icon = require("./../images/heroku.svg");
+    const js_icon = require("./../images/javascript.svg");
+    const gitlab_icon = require("./../images/gitlab.svg");
     return(
         <section className="pt-20 pb-48 bg-white ">
             <div className="container mx-auto px-4">
@@ -18,11 +26,26 @@ const TechSkills = () =>{
                         </div>
                     </div>
                 </div>
-                <div className="flex flex-wrap">
+                <div className="flex flex-wrap mb-12 ">
                     <Skill img={mongo_icon} skill={"Mongo DB"}/>
                     <Skill img={expres_icon} skill={"Express"}/>
                     <Skill img={react_icon} skill={"React"}/>
                     <Skill img={node_icon} skill={"Node"}/>
+                </div>
+                <div className="flex flex-wrap pt-8 mb-12">
+                    <Skill img={boostrap_icon} skill={"bootstrap"}/>
+                    <Skill img={css3_icon} skill={"css3"}/>
+                    <Skill img={git_icon} skill={"Git"}/>
+                    <Skill img={github_icon} skill={"Github"}/>
+
+                </div>
+                <div className="flex flex-wrap pt-8">
+                    <Skill img={gitlab_icon} skill={"Gitlab"}/>
+
+                    <Skill img={heroku_icon} skill={"heroku"}/>
+                    <Skill img={html_icon} skill={"HTML5"}/>
+                    <Skill img={js_icon} skill={"Javascript"}/>
+
                 </div>
 
             </div>
