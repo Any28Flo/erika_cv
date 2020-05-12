@@ -21,15 +21,15 @@ const Projects = () =>{
                         <p className="text-gray-600 mb-8">This is the final project  at Ironhack where I create an app where you can learn about best crypto currencies.
                             Create your own wallets, buy crypto currencies and save then into your wallet.<br/><br/> </p>
                         <div className="inline-flex">
-                            <div className="flex-1  text-center">
+                            <div className="flex-1  text-center mr-8">
                                 <img className="w-8" src={react_icon} alt=""/>
 
                             </div>
-                            <div className="flex-1  text-center">
+                            <div className="flex-1  text-center mr-8">
                                 <img className="w-16" src={node_icon} alt=""/>
 
                             </div>
-                            <div className="flex-1  text-center">
+                            <div className="flex-1  text-center mr-8">
                                 <img className="w-8" src={heroku_icon} alt=""/>
 
                             </div>
@@ -64,14 +64,18 @@ const Projects = () =>{
                             <p className="text-gray-600 mb-8">IronPets was a second project for Ironhack's bootcamp.
                                 Ironpets help  to find a new home for dogs. You can view animals in your area, search animals of a specific breed, gender, or size, and read all about each animal.
                             </p>
-                            <div className="inline-flex">
+                            <div className="inline-flex ">
 
-                                <div className="flex-1  text-center">
+                                <div className="flex-1  text-center mr-8">
                                     <img className="w-16" src={node_icon} alt=""/>
 
                                 </div>
-                                <div className="flex-1  text-center">
+                                <div className="flex-1  text-center mr-8">
                                     <img className="w-8" src={heroku_icon} alt=""/>
+
+                                </div>
+                                <div className="flex-1  text-center mr-8">
+                                    <img className="w-8 " src={materialui_icon} alt=""/>
 
                                 </div>
 

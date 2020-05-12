@@ -46,8 +46,8 @@ const Hero = () =>{
                             height: "100%"
                         }}
                     >
-                        <h1 className="w-full my-2 text-5xl font-bold leading-tight text-center text-white pt-48 md:pt-56">Erika Flores</h1>
-                        <p className="w-full my-2 text-1xl italic font-bold leading-tight text-center text-white ">Software engineer <br/> &<br/> Full Stack developer</p>
+                        <h1 className="w-full my-2 text-6xl font-bold leading-tight text-center text-white pt-48 md:pt-56 lg:text-6xl lg:mt-2">Erika Flores</h1>
+                        <p className="w-full my-2 text-2xl italic font-bold leading-tight text-center text-white ">Software engineer <br/> &<br/> Full Stack developer</p>
                     </div>
                 </div>
             </section>
