@@ -21,7 +21,6 @@ const App = () =>{
             <Projects/>
             <TechSkills/>
             <Footer/>
-            <Button/>
         </div>
 
 
