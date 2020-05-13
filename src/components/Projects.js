@@ -83,9 +83,7 @@ const Projects = () =>{
 
                             <p className="text-gray-600 mb-8">
                                 Code <a className="text-orange-500 underline"
-                                        href="https://github.com/Any28Flo/crypto-wallet">https://github.com/Any28Flo/crypto-wallet</a> <br/>
-                                Site <a className="text-orange-500 underline"
-                                        href="https://cryptowallet-app.herokuapp.com/">https://cryptowallet-app.herokuapp.com/</a>
+                                        href="https://github.com/Any28Flo/crypto-wallet">https://github.com/Any28Flo/IronPets-1</a> <br/>
 
                             </p>
 
