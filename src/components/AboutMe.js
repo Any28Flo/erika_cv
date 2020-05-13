@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from 'react-router-dom'
 
 const AboutMe  = () =>{
     const profile_image = require('./../images/profile_picture.jpg');
@@ -6,6 +7,7 @@ const AboutMe  = () =>{
     const stack_icon = require('./../images/social-media.svg');
     const github_icon = require('./../images/github_white.svg');
     const gitlab = require('./../images/gitlab-icon-1-color-white-rgb.svg');
+    const pdf = require('./../files/ErikaFlores_fullstack.pdf');
     return (
         <div className="pt-24">
 
@@ -13,6 +15,13 @@ const AboutMe  = () =>{
                 <div className="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
                     <h1 className="my-4 text-5xl font-bold leading-tight">Hi. I'm Erika Flores</h1>
                     <p className="leading-normal text-2xl mb-8">I'm a software engineer and full stack developer from Mexico city. Please take a look around.</p>
+                    <div
+                        className="mt-6 pb-16 lg:pb-0 w-4/5 lg:w-full mx-auto flex flex-wrap items-center justify-between ">
+                        <a className="link mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg" target="_blank"  rel="noopener noreferrer" href="https://drive.google.com/open?id=1iLquIv8XWumLskAlvqdEnRRCA8HbYYiR" data-tippy-content="@gitlab_handle">
+                           Resume
+                        </a>
+
+                    </div>
                     <div
                         className="mt-6 pb-16 lg:pb-0 w-4/5 lg:w-full mx-auto flex flex-wrap items-center justify-between ">
                         <a className="link" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/analin-flores" data-tippy-content="@linkedin_handle">
@@ -54,10 +63,7 @@ const AboutMe  = () =>{
 
                     </div>
 
-                    <a
-                        className="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg"
-                        href="https://drive.google.com/open?id=1iLquIv8XWumLskAlvqdEnRRCA8HbYYiR"
-                    >Resume</a>
+
 
                 </div>
                 <div className="w-full md:w-3/5 py-6 text-center">
