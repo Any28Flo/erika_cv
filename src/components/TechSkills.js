@@ -14,7 +14,7 @@ const TechSkills = () =>{
     const js_icon = require("./../images/javascript.svg");
     const gitlab_icon = require("./../images/gitlab.svg");
     return(
-        <section className="pt-20 pb-48 bg-white ">
+        <section className="pt-20 pb-48 bg-white " id="skills">
             <div className="container mx-auto px-4">
                 <div className="flex flex-wrap justify-center text-center mb-24">
                     <div className="w-full lg:w-6/12 px-4 ">
