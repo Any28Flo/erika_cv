@@ -32,14 +32,14 @@ const NavBar = () =>{
                     id="nav-content">
                     <ul className="list-reset lg:flex justify-end flex-1 items-center">
                         <li className="mr-3">
-                            <a className="inline-block py-2 px-4 text-black  no-underline hover:bg-brandingYellow" href="#aboutMe">About me</a>
+                            <a className="inline-block py-2 px-4 text-black  no-underline rounded hover:bg-brandingYellow" href="#aboutMe">About me</a>
                         </li>
                         <li className="mr-3">
-                            <a className="inline-block text-black no-underline hover:text-gray-800 hover:text-underline  hover:bg-brandingYellow py-2 px-4"
+                            <a className="inline-block text-black no-underline hover:text-gray-800 hover:text-underline   rounded hover:bg-brandingYellow py-2 px-4"
                                href="#projects">Projects</a>
-                        </li>s
+                        </li>
                         <li className="mr-3">
-                            <a className="inline-block text-black no-underline hover:text-gray-800 hover:text-underline hover:bg-brandingYellow py-2 px-4"
+                            <a className="inline-block text-black no-underline hover:text-gray-800 hover:text-underline  rounded hover:bg-brandingYellow py-2 px-4"
                                href="#skills">Skills</a>
                         </li>
                     </ul>

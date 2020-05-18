@@ -40,13 +40,13 @@ const Hero = () =>{
                     <div
                         style={{
                             position: "absolute",
-                            top: "5em",
+                            top: "10em",
                             left: 0,
                             width: "100%",
                             height: "100%"
                         }}
                     >
-                        <h1 className="w-full  text-6xl font-bold leading-tight text-center text-white pt-40 lg:mt-2">Erika Flores</h1>
+                        <h1 className="w-full  text-6xl font-bold leading-tight text-center text-white pt-40 lg:mt-2 md:pt-40">Erika Flores</h1>
                         <p className="w-full  text-2xl italic font-bold leading-tight text-center text-white ">Software engineer <br/> &<br/> Full Stack developer</p>
                     </div>
                 </div>
