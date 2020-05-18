@@ -1,7 +1,8 @@
-import React from "react";
+import React, {useState} from "react";
 
 const NavBar = () =>{
     const analinFlores_icon= require("./../images/iconAnalin.png");
+    const [isOpen, setisOpen] = useState(false);
 
     return(
         <nav id="header" className=" w-full z-30 top-0 text-white bg-white ">
@@ -18,7 +19,7 @@ const NavBar = () =>{
                 </div>
 
                 <div className="block lg:hidden pr-4">
-                    <button id="nav-toggle" className="flex items-center p-1 text-orange-800 hover:text-gray-900">
+                    <button id="nav-toggle" className="flex items-center p-1 text-orange-800 hover:text-gray-900" onClick={ e => setisOpen( !isOpen)}>
                         <svg className="fill-current h-6 w-6" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                             <title>Menu</title>
                             <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/>
@@ -45,6 +46,13 @@ const NavBar = () =>{
                     <button id="navAction"
                             className="mx-auto lg:mx-0 hover:bg-brandingYellow bg-white text-gray-800 font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75">Get in touch
                     </button>
+                </div>
+                <div className={`w-full flex-grow ${isOpen ? 'block' : 'hidden'}`}>
+
+                    <a className="block mt-1 py-1 px-3 font-semibold rounded text-black  hover:bg-brandingYellow" >About me</a>
+                    <a className="block mt-1 py-1 px-3 font-semibold rounded text-black  hover:bg-brandingYellow" >Proyects</a>
+                    <a className="block mt-1 py-1 px-3 font-semibold rounded text-black  hover:bg-brandingYellow" >Skills</a>
+
                 </div>
             </div>
 
