@@ -1,5 +1,6 @@
 import React, {useState} from "react";
-
+import NavItem from "../components/NavItem";
+import NavItemMobile from "../components/NavItemMobile";
 const NavBar = () =>{
     const analinFlores_icon= require("./../images/iconAnalin.png");
     const [isOpen, setisOpen] = useState(false);
@@ -31,17 +32,9 @@ const NavBar = () =>{
                     className="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20"
                     id="nav-content">
                     <ul className="list-reset lg:flex justify-end flex-1 items-center">
-                        <li className="mr-3">
-                            <a className="inline-block py-2 px-4 text-black  no-underline rounded hover:bg-brandingYellow" href="#aboutMe">About me</a>
-                        </li>
-                        <li className="mr-3">
-                            <a className="inline-block text-black no-underline hover:text-gray-800 hover:text-underline   rounded hover:bg-brandingYellow py-2 px-4"
-                               href="#projects">Projects</a>
-                        </li>
-                        <li className="mr-3">
-                            <a className="inline-block text-black no-underline hover:text-gray-800 hover:text-underline  rounded hover:bg-brandingYellow py-2 px-4"
-                               href="#skills">Skills</a>
-                        </li>
+                        <NavItem  href={"#aboutMe" } nameLink={"About me"}/>
+                        <NavItem  href={"#projects"} nameLink={"Projects"}/>
+                        <NavItem  href={"#skills"} nameLink={"Skills"}/>
                     </ul>
                     <button id="navAction"
                             className="mx-auto lg:mx-0 hover:bg-brandingYellow bg-white text-gray-800 font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75">Get in touch
@@ -49,9 +42,9 @@ const NavBar = () =>{
                 </div>
                 <div className={`w-full flex-grow ${isOpen ? 'block' : 'hidden'}`}>
 
-                    <a className="block mt-1 py-1 px-3 font-semibold rounded text-black  hover:bg-brandingYellow" href="#aboutMe" >About me</a>
-                    <a className="block mt-1 py-1 px-3 font-semibold rounded text-black  hover:bg-brandingYellow" >Proyects</a>
-                    <a className="block mt-1 py-1 px-3 font-semibold rounded text-black  hover:bg-brandingYellow" >Skills</a>
+                    <NavItemMobile href={"#aboutMe" } nameLink={"About me"}/>
+                    <NavItemMobile href={"#projects"} nameLink={"Projects"}/>
+                    <NavItemMobile href={"#skills"} nameLink={"Skills"}/>
 
                 </div>
             </div>
