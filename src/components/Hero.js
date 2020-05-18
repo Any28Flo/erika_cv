@@ -47,7 +47,7 @@ const Hero = () =>{
                         }}
                     >
                         <h1 className="w-full  text-6xl font-bold leading-tight text-center text-white pt-40 lg:mt-2 md:pt-40">Erika Flores</h1>
-                        <p className="w-full  text-2xl italic font-bold leading-tight text-center text-white ">Software engineer <br/> &<br/> Full Stack developer</p>
+                        <p className="w-full  text-2xl italic font-bold leading-tight text-center text-white ">Full Stack developer <br/> &<br/>Software engineer </p>
                     </div>
                 </div>
             </section>
