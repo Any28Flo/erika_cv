@@ -57,7 +57,7 @@ const AboutMe  = () =>{
                     </div>
                     <div
                         className="mt-6 pb-16 lg:pb-0 w-4/5 lg:w-full mx-auto flex flex-wrap items-center justify-between ">
-                        <a className="link mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg" target="_blank"  rel="noopener noreferrer" href="https://drive.google.com/open?id=1iLquIv8XWumLskAlvqdEnRRCA8HbYYiR" data-tippy-content="@gitlab_handle">
+                        <a className="link mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg" target="_blank"  rel="noopener noreferrer" href="https://drive.google.com/file/d/1kH-fdSYL_2V33BxbgsqSAbyEMfMf2HZO/view?usp=sharing" data-tippy-content="@gitlab_handle">
                             Resume
                         </a>
 
