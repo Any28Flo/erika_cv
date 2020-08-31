@@ -35,10 +35,9 @@ const NavBar = () =>{
                         <NavItem  href={"#aboutMe" } nameLink={"About me"}/>
                         <NavItem  href={"#projects"} nameLink={"Projects"}/>
                         <NavItem  href={"#skills"} nameLink={"Skills"}/>
+                        <NavItem  href={"#getInTouch"} nameLink={"Get in Touch"}/>
                     </ul>
-                    <button id="navAction"
-                            className="mx-auto lg:mx-0 hover:bg-brandingYellow bg-white text-gray-800 font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75">Get in touch
-                    </button>
+
                 </div>
                 <div className={`w-full flex-grow ${isOpen ? 'block' : 'hidden'}`}>
 

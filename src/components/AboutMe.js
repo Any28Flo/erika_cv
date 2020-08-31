@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from 'react-router-dom'
 
 const AboutMe  = () =>{
     const profile_image = require('./../images/profile_picture.jpg');
